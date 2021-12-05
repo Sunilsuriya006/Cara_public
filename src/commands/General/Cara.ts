@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         MessageType.image,
                     undefined,
                     undefined,
-                    `*Cara*: *https://github.com/iamherok/Cara_public*\n *If you like the bot please star my repo*`,
+                    `*Cara*: *https://github.com/Sunilsuriya006/Cara_public*\n *If you like the bot please star my repo*`,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`✖ An error occurred. Please try again later.`))
