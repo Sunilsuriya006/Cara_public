@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         await this.client.sendMessage(
             M.sender.jid,
-            `*🎗️ 🅂🅄🄽🄸🄻-🄱🄾🅃🅃🄾*\n\n *📮【About】:* *Fun Bot*\n\n*🛸【Group】:* https://chat.whatsapp.com/EBUKlcbfc3692tllAcEAP7 \n`,
+            `*🎗️ 🅂🅄🄽🄸🄻-🄱🄾🅃🅃🄾*\n\n *📮【About】:* *Fun Bot*\n\n*🛸【Group】:* https://chat.whatsapp.com/C8omneFl0I3Ha7PJRl9aDq \n`,
             MessageType.text
         )
         return void M.reply('Sent you the support link in personal message'); //.catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
