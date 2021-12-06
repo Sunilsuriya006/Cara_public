@@ -41,7 +41,7 @@
 
 ### 🟢 WhatsApp Group
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/C8omneFl0I3Ha7PJRl9aDqhttps://chat.whatsapp.com/C8omneFl0I3Ha7PJRl9aDqhttps)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/C8omneFl0I3Ha7PJRl9aDq)
 
 ## 📄 License
 
