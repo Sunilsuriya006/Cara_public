@@ -35,11 +35,11 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 Hello there! *${M.sender.username}*\n🌃 🌈━❰･Notes📮Side･❱━🌃 🌈\n*Read the rules*\n\n\nI'm saitama My prefix is *.* (\_/) 
+            let text = `👋🏻 Hello there! *${M.sender.username}*\n🌃 🌈━❰･Notes📮Side･❱━🌃 🌈\n*Read the rules*\n\n\nI'm saitama My prefix is *.*
 
-( •.•) 
 
-(>❤*\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
+
+*\n *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `🎆Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}🎆\n• \`\`\`${categories[
