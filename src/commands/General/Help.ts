@@ -39,7 +39,7 @@ export default class Command extends BaseCommand {
 
 
 
-*, *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
+*\n *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `🎆Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}🎆\n• \`\`\`${categories[
