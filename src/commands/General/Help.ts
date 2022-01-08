@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 Hello there! *${M.sender.username}*\n🌃 🌈━❰･Notes📮Side･❱━🌃 🌈\n*Read the rules*\n\n\nI'm saitama My prefix is *.*
+            let text = `👋🏻 Hello there! *${M.sender.username}*,🌃 🌈━❰･Notes📮Side･❱━🌃 🌈\n*Read the rules*\n\n\nI'm saitama My prefix is *.*
 
 
 
