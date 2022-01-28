@@ -11,8 +11,8 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'cara',
-            description: `Get cara's repo`,
-            aliases: ['cara'],
+            description: `Get saitama repo`,
+            aliases: ['saitama'],
             category: 'general',
             usage: `${client.config.prefix}cara`,
             baseXp: 50
@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         MessageType.image,
                     undefined,
                     undefined,
-                    `*Cara*: *https://github.com/Sunilsuriya006/Cara_public*\n *If you like the bot please star my repo*`,
+                    `*saitama*: *https://github.com/Sunilsuriya006/Cara_public*\n *If you like the bot please star my repo*`,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`✖ An error occurred. Please try again later.`))
