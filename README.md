@@ -26,4 +26,4 @@
 
 •Self-Restoring Auth
 
-•Built with Baileys (The Best WhatsApp Library Out There)
+•Built with https://github.com/adiwajshing/baileys (The Best WhatsApp Library Out There
