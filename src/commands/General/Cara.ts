@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'cara',
-            description: `Get saitama repo`,
+            description: `Get cara  repo`,
             aliases: ['saitama'],
             category: 'general',
             usage: `${client.config.prefix}cara`,
