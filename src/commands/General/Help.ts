@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
                 if (!info?.config?.category || info.config.category === 'dev') continue
                 if (Object.keys(categories).includes(info.config.category)) categories[info.config.category].push(info)
                 else {
-                    categories[info.config.category] = []
+                    categories[info.config.category] = [];
                     categories[info.config.category].push(info)
                 }
             }
