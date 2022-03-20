@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://c.tenor.com/3MyUCTTZD_EAAAAC/saitama-one-punch-man.gif";
+			"https://tenor.com/view/justice-revenge-determination-rage-anger-gif-24446936";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
