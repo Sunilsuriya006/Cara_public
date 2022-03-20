@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
      run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
            const n = [
-           'https://c.tenor.com/3MyUCTTZD_EAAAAC/saitama-one-punch-man.gif'
+           'https://c.tenor.com/3MyUCTTZD_EAAAPo/saitama-one-punch-man.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -46,9 +46,9 @@ export default class Command extends BaseCommand {
                     key
                 ]
                     .map((command) => command.config?.command)
-                     .join(' , ')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.gif, {
-
+                     .join(' , ')}\`\`\`\n\n`t
+            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.image, {
+l
 
             caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
