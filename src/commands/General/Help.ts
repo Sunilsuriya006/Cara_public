@@ -47,7 +47,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                      .join(' , ')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.mp4, {
+            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.image, {
 
 
             caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
